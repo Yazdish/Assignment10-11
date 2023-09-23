@@ -41,7 +41,6 @@ class Time:
         return result
 
     def sec_to_time(self):
-        
         self.minute = self.second // 60
         self.second = self.second % 60
         if self.minute >= 60:
